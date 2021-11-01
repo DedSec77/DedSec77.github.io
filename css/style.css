@@ -1,0 +1,122 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: HelveticaMedium;
+	background: linear-gradient(90.73deg, #49134A 0%, #13444A 100%);
+}
+
+header{
+	width: 100%;
+	height: 913px;
+	background: linear-gradient(116deg, rgba(183,153,248,1) 0%, rgba(137,82,255,1) 100%);
+}
+
+header nav{
+	padding-top: 10px;
+
+	font-size: 18px;
+	font-family: HelveticaMedium;
+}
+
+header nav *{display: inline-block;}
+header nav img{
+	float: left;
+}
+
+@font-face{
+	font-family: HelveticaMedium;
+	src: url("HelveticaMedium.ttf");
+}
+
+@font-face{
+	font-family: HelveticaBold;
+	src: url("HelveticaBold.ttf");
+}
+
+nav span{
+	float: left;
+	font-size: 48px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-top: 35px;
+}
+
+header a{
+	text-decoration: none;
+	color: white;
+}
+
+.rightnavbar{
+	float: right;
+	margin-right: 5%;
+}
+
+.rightnavbar a{
+	margin-top: 35%;
+	margin-left: 20px;
+}
+/*209*/
+
+.offer {
+	padding-top: 150px;
+	text-align: center;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.offer p{
+	text-align: center;
+	font-size: 25px;
+	color: white;
+}
+
+.offer a{
+	width: 432px;
+	height: 116px;
+	background: linear-gradient(96.91deg, #A535E9 44.59%, #00E0FF 91.29%);
+	box-shadow: 0px 9px 50px rgba(147, 72, 235, 0.92);
+	border-radius: 50px;
+	padding: 25px 100px 25px 100px;
+	font-size: 48px;
+}
+
+header h1{
+	font-size: 96px;
+	text-align: center;
+	color: white;
+}
+
+
+footer{
+	color: white;
+	background: linear-gradient(90.73deg, #49134A 0%, #13444A 100%);
+	text-align: center;
+	height: 130px;
+}
+
+footer a{
+	color: white;
+	text-align: center;
+}
+
+
+
+
+.dwbutton{
+	width: 432px;
+	height: 116px;
+	background: linear-gradient(96.91deg, #A535E9 44.59%, #00E0FF 91.29%);
+	box-shadow: 0px 9px 50px rgba(147, 72, 235, 0.92);
+	border-radius: 50px;
+	padding: 25px 100px 25px 100px;
+	font-size: 48px;
+	margin-bottom: 10px;
+}
+
+.download{
+	display: block;
+	text-align: center;
+	padding-top: 300px;
+	line-height: 200px;
+}
